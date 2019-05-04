@@ -36,7 +36,7 @@ if      option == "1":
         elif HorB == "2":
                 url_http = ("https://") +url
                 r = requests.get(url_http)
-                os.system("figlet Header")
+                os.system("figlet Body")
                 print(r.content)
         else:
                 print "\nERROR: Wrong Input"
